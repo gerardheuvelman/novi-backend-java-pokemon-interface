@@ -297,13 +297,9 @@ import java.util.*;
                      if (p instanceof FirePokemon) {
                          p.hp += 5;
                      }
-                     break;
-                 default:
-                     break;
-             }
+                     break;}
          }
 
          System.out.println(p.name + " was given a portion of " + chosenFood + " (hp now " + p.hp + ")");
-
      }
  }
